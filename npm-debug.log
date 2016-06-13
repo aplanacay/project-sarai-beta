@@ -1,0 +1,189 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/whitecorn/Documents/project-sarai-beta',
+5 verbose install   [ 'classnames',
+5 verbose install     'mantra-core',
+5 verbose install     'marked',
+5 verbose install     'material-design-icons',
+5 verbose install     'material-design-lite',
+5 verbose install     'react',
+5 verbose install     'react-dom',
+5 verbose install     'react-google-maps',
+5 verbose install     'react-komposer',
+5 verbose install     'react-markdown',
+5 verbose install     'react-mounter',
+5 verbose install     'react-redux',
+5 verbose install     'react-simple-di',
+5 verbose install     'redux',
+5 verbose install     'slug',
+5 verbose install     'babel-core',
+5 verbose install     'babel-eslint',
+5 verbose install     'babel-plugin-react-require',
+5 verbose install     'babel-polyfill',
+5 verbose install     'babel-preset-es2015',
+5 verbose install     'babel-preset-react',
+5 verbose install     'babel-preset-stage-2',
+5 verbose install     'chai',
+5 verbose install     'enzyme',
+5 verbose install     'eslint-plugin-meteor',
+5 verbose install     'eslint-plugin-react',
+5 verbose install     'mocha',
+5 verbose install     'react-addons-test-utils',
+5 verbose install     'redux-devtools',
+5 verbose install     'sinon',
+5 verbose install     'snyk' ] ]
+6 info preinstall project-sarai-beta@1.0.0
+7 warn package.json babel-polyfill@6.9.1 No description
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping material-design-icons@^2.2.3 /home/whitecorn/Documents/project-sarai-beta
+10 verbose already installed skipping mantra-core@^1.6.1 /home/whitecorn/Documents/project-sarai-beta
+11 verbose already installed skipping material-design-lite@^1.1.3 /home/whitecorn/Documents/project-sarai-beta
+12 verbose already installed skipping marked@^0.3.5 /home/whitecorn/Documents/project-sarai-beta
+13 verbose already installed skipping react@^0.14.8 /home/whitecorn/Documents/project-sarai-beta
+14 verbose already installed skipping react-dom@^0.14.8 /home/whitecorn/Documents/project-sarai-beta
+15 verbose already installed skipping react-google-maps@^4.11.0 /home/whitecorn/Documents/project-sarai-beta
+16 verbose already installed skipping react-komposer@^1.2.1 /home/whitecorn/Documents/project-sarai-beta
+17 verbose already installed skipping react-markdown@^1.2.4 /home/whitecorn/Documents/project-sarai-beta
+18 verbose already installed skipping react-mounter@^1.0.0 /home/whitecorn/Documents/project-sarai-beta
+19 verbose already installed skipping react-redux@^4.0.6 /home/whitecorn/Documents/project-sarai-beta
+20 verbose already installed skipping react-simple-di@^1.0.1 /home/whitecorn/Documents/project-sarai-beta
+21 verbose already installed skipping redux@^3.5.2 /home/whitecorn/Documents/project-sarai-beta
+22 verbose already installed skipping slug@^0.9.1 /home/whitecorn/Documents/project-sarai-beta
+23 verbose already installed skipping babel-core@6.4.5 /home/whitecorn/Documents/project-sarai-beta
+24 verbose already installed skipping babel-eslint@^5.0.0-beta6 /home/whitecorn/Documents/project-sarai-beta
+25 verbose already installed skipping babel-plugin-react-require@^2.1.0 /home/whitecorn/Documents/project-sarai-beta
+26 verbose already installed skipping babel-polyfill@^6.3.14 /home/whitecorn/Documents/project-sarai-beta
+27 verbose already installed skipping babel-preset-es2015@^6.3.13 /home/whitecorn/Documents/project-sarai-beta
+28 verbose already installed skipping babel-preset-react@^6.3.13 /home/whitecorn/Documents/project-sarai-beta
+29 verbose already installed skipping babel-preset-stage-2@^6.3.13 /home/whitecorn/Documents/project-sarai-beta
+30 verbose already installed skipping chai@^3.4.1 /home/whitecorn/Documents/project-sarai-beta
+31 verbose already installed skipping enzyme@^2.0.0-rc1 /home/whitecorn/Documents/project-sarai-beta
+32 verbose already installed skipping eslint-plugin-meteor@^1.7.0 /home/whitecorn/Documents/project-sarai-beta
+33 verbose already installed skipping eslint-plugin-react@^4.1.0 /home/whitecorn/Documents/project-sarai-beta
+34 verbose already installed skipping mocha@^2.3.4 /home/whitecorn/Documents/project-sarai-beta
+35 verbose already installed skipping react-addons-test-utils@^0.14.6 /home/whitecorn/Documents/project-sarai-beta
+36 verbose already installed skipping redux-devtools@^3.0.1 /home/whitecorn/Documents/project-sarai-beta
+37 verbose already installed skipping sinon@^1.17.2 /home/whitecorn/Documents/project-sarai-beta
+38 verbose already installed skipping snyk@^1.9.1 /home/whitecorn/Documents/project-sarai-beta
+39 verbose already installed skipping classnames@^2.2.5 /home/whitecorn/Documents/project-sarai-beta
+40 silly resolved []
+41 info build /home/whitecorn/Documents/project-sarai-beta
+42 verbose linkStuff [ false, false, false, '/home/whitecorn/Documents' ]
+43 info linkStuff project-sarai-beta@1.0.0
+44 verbose linkBins project-sarai-beta@1.0.0
+45 verbose linkMans project-sarai-beta@1.0.0
+46 verbose rebuildBundles project-sarai-beta@1.0.0
+47 verbose rebuildBundles [ '.bin',
+47 verbose rebuildBundles   'babel-core',
+47 verbose rebuildBundles   'babel-eslint',
+47 verbose rebuildBundles   'babel-plugin-react-require',
+47 verbose rebuildBundles   'babel-polyfill',
+47 verbose rebuildBundles   'babel-preset-es2015',
+47 verbose rebuildBundles   'babel-preset-react',
+47 verbose rebuildBundles   'babel-preset-stage-2',
+47 verbose rebuildBundles   'chai',
+47 verbose rebuildBundles   'classnames',
+47 verbose rebuildBundles   'enzyme',
+47 verbose rebuildBundles   'eslint',
+47 verbose rebuildBundles   'eslint-plugin-meteor',
+47 verbose rebuildBundles   'eslint-plugin-react',
+47 verbose rebuildBundles   'mantra-core',
+47 verbose rebuildBundles   'marked',
+47 verbose rebuildBundles   'material-design-icons',
+47 verbose rebuildBundles   'material-design-lite',
+47 verbose rebuildBundles   'mocha',
+47 verbose rebuildBundles   'react',
+47 verbose rebuildBundles   'react-addons-test-utils',
+47 verbose rebuildBundles   'react-dom',
+47 verbose rebuildBundles   'react-google-maps',
+47 verbose rebuildBundles   'react-icons',
+47 verbose rebuildBundles   'react-komposer',
+47 verbose rebuildBundles   'react-markdown',
+47 verbose rebuildBundles   'react-mounter',
+47 verbose rebuildBundles   'react-redux',
+47 verbose rebuildBundles   'react-simple-di',
+47 verbose rebuildBundles   'redux',
+47 verbose rebuildBundles   'redux-devtools',
+47 verbose rebuildBundles   'sinon',
+47 verbose rebuildBundles   'slug',
+47 verbose rebuildBundles   'snyk' ]
+48 verbose rebuild bundle /home/whitecorn/Documents/project-sarai-beta/node_modules/eslint
+49 info build /home/whitecorn/Documents/project-sarai-beta/node_modules/eslint
+50 info preinstall eslint@2.11.1
+51 verbose linkStuff [ false,
+51 verbose linkStuff   false,
+51 verbose linkStuff   false,
+51 verbose linkStuff   '/home/whitecorn/Documents/project-sarai-beta/node_modules' ]
+52 info linkStuff eslint@2.11.1
+53 verbose linkBins eslint@2.11.1
+54 verbose link bins [ { eslint: './bin/eslint.js' },
+54 verbose link bins   '/home/whitecorn/Documents/project-sarai-beta/node_modules/.bin',
+54 verbose link bins   false ]
+55 verbose linkMans eslint@2.11.1
+56 verbose rebuildBundles eslint@2.11.1
+57 verbose rebuildBundles [ '.bin',
+57 verbose rebuildBundles   'chalk',
+57 verbose rebuildBundles   'concat-stream',
+57 verbose rebuildBundles   'debug',
+57 verbose rebuildBundles   'doctrine',
+57 verbose rebuildBundles   'es6-map',
+57 verbose rebuildBundles   'escope',
+57 verbose rebuildBundles   'espree',
+57 verbose rebuildBundles   'estraverse',
+57 verbose rebuildBundles   'esutils',
+57 verbose rebuildBundles   'file-entry-cache',
+57 verbose rebuildBundles   'glob',
+57 verbose rebuildBundles   'globals',
+57 verbose rebuildBundles   'ignore',
+57 verbose rebuildBundles   'imurmurhash',
+57 verbose rebuildBundles   'inquirer',
+57 verbose rebuildBundles   'is-my-json-valid',
+57 verbose rebuildBundles   'is-resolvable',
+57 verbose rebuildBundles   'js-yaml',
+57 verbose rebuildBundles   'json-stable-stringify',
+57 verbose rebuildBundles   'levn',
+57 verbose rebuildBundles   'lodash',
+57 verbose rebuildBundles   'mkdirp',
+57 verbose rebuildBundles   'optionator',
+57 verbose rebuildBundles   'path-is-absolute',
+57 verbose rebuildBundles   'path-is-inside',
+57 verbose rebuildBundles   'pluralize',
+57 verbose rebuildBundles   'progress',
+57 verbose rebuildBundles   'require-uncached',
+57 verbose rebuildBundles   'shelljs',
+57 verbose rebuildBundles   'strip-json-comments',
+57 verbose rebuildBundles   'table',
+57 verbose rebuildBundles   'text-table',
+57 verbose rebuildBundles   'user-home' ]
+58 info install eslint@2.11.1
+59 info postinstall eslint@2.11.1
+60 verbose rebuild bundle /home/whitecorn/Documents/project-sarai-beta/node_modules/react-icons
+61 info build /home/whitecorn/Documents/project-sarai-beta/node_modules/react-icons
+62 info preinstall react-icons@2.1.0
+63 verbose linkStuff [ false,
+63 verbose linkStuff   false,
+63 verbose linkStuff   false,
+63 verbose linkStuff   '/home/whitecorn/Documents/project-sarai-beta/node_modules' ]
+64 info linkStuff react-icons@2.1.0
+65 verbose linkBins react-icons@2.1.0
+66 verbose linkMans react-icons@2.1.0
+67 verbose rebuildBundles react-icons@2.1.0
+68 verbose rebuildBundles [ 'react-icon-base' ]
+69 info install react-icons@2.1.0
+70 info postinstall react-icons@2.1.0
+71 info install project-sarai-beta@1.0.0
+72 info postinstall project-sarai-beta@1.0.0
+73 info prepublish project-sarai-beta@1.0.0
+74 error peerinvalid The package eslint does not satisfy its siblings' peerDependencies requirements!
+74 error peerinvalid Peer babel-eslint@5.0.4 wants eslint@<2.3.0
+74 error peerinvalid Peer eslint-plugin-meteor@1.7.0 wants eslint@>=0.8.0
+75 error System Linux 3.16.0-73-generic
+76 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+77 error cwd /home/whitecorn/Documents/project-sarai-beta
+78 error node -v v0.10.25
+79 error npm -v 1.3.10
+80 error code EPEERINVALID
+81 verbose exit [ 1, true ]
