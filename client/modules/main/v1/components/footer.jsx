@@ -32,15 +32,15 @@ class Footer extends React.Component{
 							</div>
 							<div className="sectionContent">
 								<p>
-									<i className="glyphicon glyphicon-phone-alt"></i>
+									<i className="material-icons">phone</i>
 									+63 (049) 536 3080, 2836
 								</p>
 								<p>
-									*email address
+									<i className="material-icons">email</i>
 									<a className="email" href="mailto:http://sarai@uplb.edu.ph">sarai@uplb.edu.ph</a>
 								</p>
 								<p>
-									*address
+									<i className="material-icons">location_on</i>									
 									SESAM UPLB, College, Laguna Philippines 4031
 								</p>
 							</div>
