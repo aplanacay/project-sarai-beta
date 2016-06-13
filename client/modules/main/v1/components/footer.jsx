@@ -32,6 +32,7 @@ class Footer extends React.Component{
 							</div>
 							<div className="sectionContent">
 								<p>
+<<<<<<< HEAD
 									<i className="material-icons">phone</i>
 									+63 (049) 536 3080, 2836
 								</p>
@@ -41,6 +42,17 @@ class Footer extends React.Component{
 								</p>
 								<p>
 									<i className="material-icons">location_on</i>									
+=======
+									<i className="glyphicon glyphicon-phone-alt"></i>
+									+63 (049) 536 3080, 2836
+								</p>
+								<p>
+									*email address
+									<a className="email" href="mailto:http://sarai@uplb.edu.ph">sarai@uplb.edu.ph</a>
+								</p>
+								<p>
+									*address
+>>>>>>> 3d8f968da6a515ca13b42d17f58ccf730edb8a93
 									SESAM UPLB, College, Laguna Philippines 4031
 								</p>
 							</div>
