@@ -1,0 +1,59 @@
+.footer{
+	background-color: #212121;
+}
+
+.sectionTitle{
+	color: #FFFFEC;
+}
+
+.sectionContent{
+	color: #676766;
+}
+
+.footer-bottom{
+	background-color: #272727;
+	color: #676766;
+}
+
+.bottom-right{
+	text-align: right;
+}
+
+.bottom-left{
+	text-align: right;
+}
+
+.email{
+  color: #676766;
+  transition: all 0.5s ease;
+  text-decoration: none;
+
+}
+
+.email:hover{
+  color: #4CAF50;
+}
+
+/*glyphicons*/
+/*
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-phone-alt:before {
+  content: "\e183";
+}
+*/

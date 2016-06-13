@@ -2,6 +2,7 @@ import React from 'react';
 import {useDeps, composeAll, compose} from 'mantra-core';
 
 import Header from './main-header';
+import Footer from './main-footer';
 
 import {Logo, Nav} from '/client/modules/comp-lib';
 import HomePage from './../components/home-page.jsx';
@@ -87,8 +88,9 @@ const composer = ({}, onData) => {
   // const navpos = 'header'
   // const alwaysVisible = true
   // const banner = React.createElement(Nav, {links, navpos, alwaysVisible})
+  const footer = React.createElement(Footer)
 
-  onData(null, {header})
+  onData(null, {header, footer})
 }
 
 export default composeAll(
