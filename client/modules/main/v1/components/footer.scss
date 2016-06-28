@@ -31,29 +31,50 @@
 }
 
 .email:hover{
-  color: #4CAF50;
+	color: #4CAF50;
 }
 
-/*glyphicons*/
-/*
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#dost_pccarrd_uplb{
+	height: 75px !important;
 }
 
-.glyphicon-phone-alt:before {
-  content: "\e183";
-}
+/**
+* for round icons
 */
+.btn-round {
+    background-color: #795548;
+    border-radius: 999em;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    line-height: 1;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+.btn-round .btn-span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: -19px;
+  	color: #FFF;
+}
+
+.facebook .btn-span img{
+	height:20px;
+	width:20px;
+}
+
+.twitter .btn-span img{
+	height:20px;
+	width:20px;
+}
+
+.youtube .btn-span img{
+	height:20px;
+	width:20px;
+}

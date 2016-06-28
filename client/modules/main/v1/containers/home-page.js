@@ -9,7 +9,6 @@ import HomePage from './../components/home-page.jsx';
 
 const composer = ({}, onData) => {
   const header = React.createElement(Header)
-  const footer = React.createElement(Footer)
   // const banner = React.createElement(Logo, {label: 'Title'})
 
   const links = [

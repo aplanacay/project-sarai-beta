@@ -21,7 +21,9 @@ class Footer extends React.Component{
 								forecasting and monitoring system for first six priority 
 								crops: rice, corn, banana, coconut, coffee, cacao. 
 
-							*logo
+								<p>
+									<img id="dost_pccarrd_uplb" alt="dost_pccarrd_uplb logo" src="images/footer/DOST_PCAARRD_UPLB.png" />
+								</p>
 							</div>
 						</div>
 						<div className={sectionClass}>
@@ -31,30 +33,24 @@ class Footer extends React.Component{
 								</h4>
 							</div>
 							<div className="sectionContent">
-								<p>
-<<<<<<< HEAD
-									<i className="material-icons">phone</i>
-									+63 (049) 536 3080, 2836
-								</p>
-								<p>
-									<i className="material-icons">email</i>
-									<a className="email" href="mailto:http://sarai@uplb.edu.ph">sarai@uplb.edu.ph</a>
-								</p>
-								<p>
-									<i className="material-icons">location_on</i>									
-=======
-									<i className="glyphicon glyphicon-phone-alt"></i>
-									+63 (049) 536 3080, 2836
-								</p>
-								<p>
-									*email address
-									<a className="email" href="mailto:http://sarai@uplb.edu.ph">sarai@uplb.edu.ph</a>
-								</p>
-								<p>
-									*address
->>>>>>> 3d8f968da6a515ca13b42d17f58ccf730edb8a93
-									SESAM UPLB, College, Laguna Philippines 4031
-								</p>
+								<div className="btn-round">
+									<div className="btn-span">
+										<i className="material-icons">phone</i>
+									</div>										
+								</div>
+								+63 (049) 536 3080, 2836 <br />
+								<div className="btn-round">
+									<div className="btn-span">
+										<i className="material-icons">email</i>
+									</div>										
+								</div>									
+								<a className="email" href="mailto:http://sarai@uplb.edu.ph">sarai@uplb.edu.ph</a> <br />
+								<div className="btn-round">
+									<div className="btn-span">
+										<i className="material-icons">location_on</i>
+									</div>
+								</div>					
+								SESAM UPLB, College, Laguna Philippines 4031 <br />
 							</div>
 						</div>
 						<div className={sectionClass}>
@@ -64,7 +60,27 @@ class Footer extends React.Component{
 								</h4>
 							</div>
 							<div className="sectionContent">
-								*fb *twirrer *yt	
+								<div className="btn-round">
+									<a href="https://www.facebook.com/projectsarai/" className="facebook" target="_blank" title="facebook">
+										<div className="btn-span">									
+											<img src="images/common/facebook.svg"></img>										
+										</div>
+									</a>
+								</div>
+								<div className="btn-round">
+									<a href="https://twitter.com/ProjectSARAI" className="twitter" target="_blank" title="twitter">
+										<div className="btn-span">
+											<img src="images/common/twitter.svg"></img>
+										</div>
+									</a>
+								</div>
+								<div className="btn-round">
+									<a href="https://www.youtube.com/channel/UCJtzNfVmoqFZGCF326VaTZw" className="youtube" target="_blank" title="youtube">
+										<div className="btn-span">
+											<img src="images/common/youtube-play-button.svg"></img>
+										</div>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -75,16 +91,13 @@ class Footer extends React.Component{
 							</div>
 							<div className="bottom-right mdl-cell--6-col-desktop mdl-cell--2-col-tablet mdl-cell-col--2-phone">
 								Developed by SARAI Project 3
-							</div>
-						
+							</div>					
 					</div>
 				</div>
 			</div>
-
 		)
 	}
 }
-
 export default Footer;
 
 					
