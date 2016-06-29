@@ -59,7 +59,7 @@ class Footer extends React.Component{
 									Get Involved
 								</h4>
 							</div>
-							<div className="sectionContent">
+							<div className="sectionContent socialMedia">
 								<div className="btn-round">
 									<a href="https://www.facebook.com/projectsarai/" className="facebook" target="_blank" title="facebook">
 										<div className="btn-span">									
